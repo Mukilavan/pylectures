@@ -12,15 +12,15 @@ public class Solution {
              {
                  System.out.println("Weird");
              }
-           else if(num>=2&&num<=6)
+           else if(num % 2 == 0 && (num>=2&&num<=6))
            {
                System.out.println("Not Weird");
            }
-          else if(num>=6&&num<=20)
+          else if(num % 2 == 0 &&(num>=6&&num<=20))
               {
             System.out.println("Weird");
               }
-          else if(num>=20)
+          else if(num % 2 == 0 && (num>=20))
               {
             System.out.println("Not Weird");
               }
